@@ -1,4 +1,6 @@
-import { ImageList } from './components';
+import React from 'react';
+
+import { Images } from './pages/Images';
 
 function App() {
   return (
@@ -7,9 +9,7 @@ function App() {
         <h1>Тестовое задание</h1>
       </header>
       <main>
-        <section>
-          <ImageList />
-        </section>
+        <Images />
       </main>
     </>
   );
